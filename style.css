@@ -35,7 +35,7 @@ h1{
     flex-shrink: 0;
 }
  
-ul:hover{
+ .navbar ul:hover{
  background: red;
  
 
@@ -181,4 +181,51 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+.footer-section
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 155px;
+    margin: 2rem;
+    
+}
+.footer-section ul{
+display: flex;
+flex-direction: column;
+}
+.footer-section p{
+    color: #FFF;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.main-footer-section{
+    background: #002DCC;
+}
+.footer-section a{
+ color: #FFF;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.last-section{
+width: 1473px;
+height: 80px;
+background: #FFF50C;
+
+}
+.last-section p{
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding-top: 2rem;
 }
