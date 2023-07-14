@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: blue;
+}
+#hamro_airline{
+    height: 51px;
+    width: 200px;
+    border-radius: 40px;
+    border: 1px solid black;
+    flex-shrink: 0;
+    margin-left: 60%; 
+    text-align: center;
+    padding-top: 5px;
+   
+}  
+.upper_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+
+}
+/**Navbar section**/
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #514DFF;
+    height: 130px;
+    width: 1440px;
+    flex-shrink: 0;
+}
+ 
+ul:hover{
+ background: red;
+ 
+
+ }
+ span a{
+    color: blue;
+ }
+ 
+ ul p{
+    color:black;
+    font-size: 2rem;
+ }
+.herosection1{
+    background-image: url('https://www.nepalairlines.com.np/storage/banner/2021/01/slideimg_1611228354.jpg');
+    height: 30rem;
+    width: 90rem;
+    background-color: black;
+}
+
+
+.herosection2 h1{
+    color: #0B23A0;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+}
+.herosection2{
+    display: flex;
+    justify-content: space-between;
+}
+.discount{
+ width: 612px;
+height: 350px;
+border-radius: 30px;
+background: #FFF;
+box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+display: flex;
+text-align: center;
+
+
+}
+.discount-photo{
+    height: 258px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url('https://admin.buddhaair.com/upload/aboutus/mainimage/1649663497_cjPSc_web-01.webp');
+}
+
+.inst-discount span {
+padding-top:2rem ;
+ color: #002DCC;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+    
+
+}
+.inst-discount span:hover{
+    color: rgba(255, 255, 0, 0.86);
+}
+.instant-dis{
+    height: 250px;
+    width: 350px;
+    padding-top: 2rem;
+}
+.inst-discount p{
+    padding-top: 2rem;
+    font-size: small;
+    color: #696969;
+    padding-left: 3.7rem;
+    margin-bottom: 5rem;
+    padding-right: 1rem;
+
+}
+.inst-discount a{
+    color: #002DCC;
+    height: 20px;
+    width: 30px;
+    padding-right: 5rem;
+   
+}
+.share-journey{
+width: 360px;
+height: 290px;
+border-radius: 30px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.share-journey .image img{
+    width: 100%;
+    height: 100%;
+}
+.share p{
+    color: #002DCC;
+    font: 2rem;
+    
+}
+.share{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.share > a{
+    color: #002DCC;
+    justify-content: center;
+    margin: auto;
+}
