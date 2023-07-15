@@ -6,6 +6,7 @@
 h1{
     color: blue;
 }
+
 #hamro_airline{
     height: 51px;
     width: 200px;
@@ -26,32 +27,51 @@ h1{
 }
 /**Navbar section**/
 .navbar{
+    background-color: #0B23A0;
+    height: 80px;
+    
     display: flex;
+    align-items: center;
+
+  
+}
+.navbar ul{
+    display: flex;
+    
+    height: 40px;
+    width: 100rem;
+    margin-left: 10px;
     justify-content: space-evenly;
     align-items: center;
-    background: #514DFF;
-    height: 130px;
-    width: 1440px;
-    flex-shrink: 0;
+}
+.navbar ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    list-style: none;
+    transition: 0.5s ease;
+    border-radius: 3px;
+    padding: 5px;
+    height: 40px;
+    width: 90px;
+    
+
+}
+.navbar ul li:hover{
+    background-color: red;
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+
 }
  
-ul:hover{
- background: red;
- 
 
- }
- span a{
-    color: blue;
- }
- 
- ul p{
-    color:black;
-    font-size: 2rem;
- }
+
+ /*--- home page css */
 .herosection1{
     background-image: url('https://www.nepalairlines.com.np/storage/banner/2021/01/slideimg_1611228354.jpg');
     height: 30rem;
-    width: 90rem;
     background-color: black;
 }
 
