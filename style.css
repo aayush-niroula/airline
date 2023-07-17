@@ -248,3 +248,85 @@ background: #FFF50C;
     text-align: center;
     padding-top: 2rem;
 }
+/* ticket section from here */
+.wrapper .div-main{
+    height: 50px;
+    width: 400px;
+    background: white;
+    text-align: center;
+   margin: 2rem;
+border-radius: 5px;
+   justify-content: space-evenly;
+   padding: 1rem;
+
+}
+.wrapper{
+    width: 1000px;
+    height: 300px;
+    background: #d9d9d9;;
+    margin: auto;
+    border-radius: 40px;
+ }
+.div-main span{
+padding: 1rem;
+color: #695D5D;
+
+
+}
+.div-main span i{
+    color: black;
+    padding-left: 3px;
+}
+.wrapper .offers{
+margin-top: 48px;
+margin-right: 4rem;
+align-items: center;
+}
+.wrapper .offers span{
+    padding: 1rem; */
+    color: #645B5B;
+    
+}
+.wrapper .offers a {
+    text-decoration: none;
+    padding: 1rem;
+    color: #002DCC;
+}
+.wrapper .offers  i{
+    color: #002DCC;
+}
+.div-section-main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+ 
+}
+.details-section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.details-section input{
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    background: white;
+    border: none;
+}
+.details-section .from i{
+    color: #002DCC;
+    padding-right: 16px;
+}
+.add-details{
+    height: 50px;
+    width: 400px;
+    background: #FFD80B;
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+    border-radius: 10px; 
+}
+.add-details:hover{
+    transition: 1s ease-in;
+    background: #002DCC;
+}
