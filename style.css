@@ -327,6 +327,6 @@ align-items: center;
     border-radius: 10px; 
 }
 .add-details:hover{
-    transition: 1s ease-in;
+    transition: 0.5s linear;
     background: #002DCC;
 }
