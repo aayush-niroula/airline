@@ -1,0 +1,131 @@
+*margin{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Inter';
+}
+.header ul{
+display: flex;
+justify-content: space-evenly;
+margin: 1rem;
+} 
+.header ul p
+{
+position: relative;
+left: 0;
+color: blue;
+}                                   
+.header li{
+    color: #7E7171;
+    text-decoration: none;
+   list-style-type: none;
+}
+hr{
+    border: 4px solid yellow;
+}
+.header ul i{
+    position: relative;
+    left: 4rem;
+}
+.logo{
+    height: 50px;
+    width: 45px;
+    border-radius: 50%;
+    background: blue;
+    align-items: center;
+    margin: 1rem;
+}
+.logo i{
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    padding-bottom:1.5rem ;
+    color: white;
+}
+.div-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo:hover{
+    transition: 0.5s linear;
+    box-shadow: 2px 2px 2px 1px red;
+}
+#dotted{
+    border: 1px dotted gray;
+}
+.shedule .days{
+    height: 70px;
+    width: 120px;
+    background: #D9D9D9;
+    text-align: center;
+    padding: 10px 10px 0px 0px;
+    border-radius: 5px;
+}
+.shedule{
+    display: flex;
+    justify-content: space-evenly;
+}
+.shedule .days:hover{
+    background: #002DCC;
+    color: white;
+    transition: 0.5s ease-in ;
+}
+.section-hero{
+display: flex;
+justify-content: space-evenly;
+width: 847px;
+height: 109px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+margin-top: 1rem;
+padding-top: 2rem;
+margin-left: 4rem;
+}
+.hero-section p{
+    color: #000;
+    font-weight: 800;
+    font-size: 16px;
+
+}
+.hero-section a{
+    color: #000;
+    font-weight: 500;
+    font-size: 10px;
+    
+}
+.hero-section1{
+    border-left: 1.5px dotted black;
+    padding-left: 1rem;
+    align-items: center;
+
+}
+.hero-section2{
+    border-right: 1.5px dotted black;
+    padding-right: 1rem;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    left: 0px;
+}
+.price{
+    width: 270px;
+    height: 140px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 1rem;
+    text-align: center;
+}
+.price p{
+    font-weight: 800;
+  
+}
+.price s{
+    font-size: 12px;
+}
+.price a{
+    font-size: 6px;
+    padding-left: 10px;
+}
+.price .icon-arrow span{
+   padding-left: 12rem;
+}

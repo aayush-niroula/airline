@@ -283,7 +283,7 @@ margin-right: 4rem;
 align-items: center;
 }
 .wrapper .offers span{
-    padding: 1rem; */
+    padding: 1rem;
     color: #645B5B;
     
 }
@@ -329,4 +329,25 @@ align-items: center;
 .add-details:hover{
     transition: 0.5s linear;
     background: #002DCC;
+}
+.wrapper{
+   position:relative;
+    display: none;
+    animation: ticket 1s linear  forwards;
+
+}
+    @keyframes ticket{
+        0%{
+            transform: translateX(1000px);
+        }
+        100%{
+            transform: translateX(100px);
+        }
+    }
+li:hover .wrapper{
+    display: block;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    
 }

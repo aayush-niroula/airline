@@ -9,18 +9,21 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: #23242a;
 
 }
 .wrapper{
     width: 400px;
+    /* height: 420px; */
     color: white;
     background: blue;
     border: 2px solid rgba(255,255,255,.2);
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
-    backdrop-filter: blur(20px);
+    position: relative;
 }
+
 .wrapper h1{
     text-align: center;
     font-size: 36px;
@@ -100,3 +103,4 @@ body{
 .register-link p a:hover{
     text-decoration: underline;
 }
+.warppp
